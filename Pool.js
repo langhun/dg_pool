@@ -25,7 +25,7 @@ function getCodes(idx, env, randomNum = 20) {
     }
 
     let restful = process.env.POOL_RESTFUL;
-    const poolUrl = process.env.XXOO_HOST;
+    const poolUrl = process.env.DAIGUA_HOST;
 
     if (usePool && poolUrl) {
         const prefix = `${poolUrl}/${env}`
