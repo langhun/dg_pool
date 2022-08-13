@@ -3,7 +3,7 @@
 
 ================Loon==============
 [Script]
-cron "1,2,3 0 * * *" script-path=daigua.js, tag=呆瓜助力池
+cron "1 1 1 1 1" script-path=daigua.js, tag=呆瓜助力池
  */
 var version='1.0.5';
 var fs = require("fs");
